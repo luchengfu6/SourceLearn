@@ -1,0 +1,47 @@
+{
+ "note": "the six SWE-QA-Bench repositories of the paper (Appendix A.1) at the benchmark's pinned commits; region = the package directory the draft stage reads",
+ "repos": [
+  {
+   "id": "streamlink__streamlink",
+   "repo": "streamlink",
+   "url": "https://github.com/streamlink/streamlink",
+   "commit": "ab1f365",
+   "region": "src"
+  },
+  {
+   "id": "sphinx-doc__sphinx",
+   "repo": "sphinx",
+   "url": "https://github.com/sphinx-doc/sphinx",
+   "commit": "6c9e320",
+   "region": "sphinx"
+  },
+  {
+   "id": "pydata__xarray",
+   "repo": "xarray",
+   "url": "https://github.com/pydata/xarray",
+   "commit": "40119bf",
+   "region": "xarray"
+  },
+  {
+   "id": "pytest-dev__pytest",
+   "repo": "pytest",
+   "url": "https://github.com/pytest-dev/pytest",
+   "commit": "5989efe",
+   "region": "src"
+  },
+  {
+   "id": "pallets__flask",
+   "repo": "flask",
+   "url": "https://github.com/pallets/flask",
+   "commit": "85c5d93",
+   "region": "src"
+  },
+  {
+   "id": "conan-io__conan",
+   "repo": "conan",
+   "url": "https://github.com/conan-io/conan",
+   "commit": "52f43d9",
+   "region": "conan"
+  }
+ ]
+}

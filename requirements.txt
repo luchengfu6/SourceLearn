@@ -1,0 +1,5 @@
+pydantic>=2.7
+openai>=1.40
+rank-bm25>=0.2
+numpy>=1.26
+tiktoken>=0.7

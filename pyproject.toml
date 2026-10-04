@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sourcelearn"
+version = "0.1.0"
+description = "From Knowledge Access to Source Learning: Developing Source-Specific Competence"
+readme = "README.md"
+requires-python = ">=3.11"
+license = { file = "LICENSE" }
+authors = [{ name = "SourceLearn Authors" }]
+keywords = ["llm", "agents", "source-learning", "knowledge-source", "retrieval"]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Intended Audience :: Science/Research",
+]
+dependencies = [
+    "pydantic>=2.7",
+    "openai>=1.40",
+    "rank-bm25>=0.2",
+    "numpy>=1.26",
+    "tiktoken>=0.7",
+]
+
+[project.optional-dependencies]
+datasets = ["pyarrow>=14"]
+
+[project.urls]
+Homepage = "https://sourcelearn.github.io/"
+Paper = "https://arxiv.org/abs/2610.02150"
+Repository = "https://github.com/luchengfu6/SourceLearn"
+Issues = "https://github.com/luchengfu6/SourceLearn/issues"
+
+[tool.setuptools.packages.find]
+include = ["sourcelearn*"]
+exclude = ["examples*", "data*", "runs*"]
+
+[tool.setuptools.package-data]
+"sourcelearn.datasets" = ["frozen/*.json", "frozen/splits/*/*/*.json"]

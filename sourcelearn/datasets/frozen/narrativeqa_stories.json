@@ -1,0 +1,65 @@
+{
+ "note": "the 12 NarrativeQA test-split stories of the paper (Appendix A.1), read in full; document ids of deepmind/narrativeqa",
+ "stories": [
+  {
+   "id": "053c75f420da5b13619eff42645f4e13882435b7",
+   "title": "The Breakfast Club",
+   "kind": "movie script"
+  },
+  {
+   "id": "6bec7c2bdd0b01296bc9020288d833709e54cd52",
+   "title": "Taxi Driver",
+   "kind": "movie script"
+  },
+  {
+   "id": "20696abc25990b16584085154ce317d4018cffe8",
+   "title": "All About Eve",
+   "kind": "movie script"
+  },
+  {
+   "id": "e46daf966d764e1ef9d880884efa3b17a636e65d",
+   "title": "Broadcast News",
+   "kind": "movie script"
+  },
+  {
+   "id": "069ba0ceb78ef8fe8a193b7b4f225938f2044f0c",
+   "title": "Demolition Man",
+   "kind": "movie script"
+  },
+  {
+   "id": "750ec3a9ab4879f2593fb1baed81e6b449a5c755",
+   "title": "The Lord of the Rings: The Fellowship of the Ring",
+   "kind": "movie script"
+  },
+  {
+   "id": "ebb8c31643ca701cef556caebc31c8490f4dfc9e",
+   "title": "Press Cuttings",
+   "kind": "book"
+  },
+  {
+   "id": "0e9c46e2aaab8f794dd9e636ee6e88f301a2ef78",
+   "title": "Out of Time's Abyss",
+   "kind": "book"
+  },
+  {
+   "id": "1fa32a0798f79e13ca92ae84eda9ab3eb12c70a4",
+   "title": "The Call of the Wild",
+   "kind": "book"
+  },
+  {
+   "id": "eaba6723befdddc5c5177c5c1bf5262d850c2a99",
+   "title": "The Castle of Otranto",
+   "kind": "book"
+  },
+  {
+   "id": "55d68540c6b86bc90f7a9e630c8b13c0920bf834",
+   "title": "Persuasion",
+   "kind": "book"
+  },
+  {
+   "id": "03690ff2154ebecb454ea267cec529358ab6923b",
+   "title": "The Old Wives' Tale",
+   "kind": "book"
+  }
+ ]
+}

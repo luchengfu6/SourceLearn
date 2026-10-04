@@ -1,0 +1,43 @@
+{
+ "bench": "narrativeqa",
+ "source": "e46daf966d764e1ef9d880884efa3b17a636e65d",
+ "seed": 1,
+ "train_frac": 0.3,
+ "mode": "random",
+ "group_by": "issue_or_qid",
+ "n_questions": 30,
+ "train": [
+  "e46daf96_10",
+  "e46daf96_14",
+  "e46daf96_16",
+  "e46daf96_19",
+  "e46daf96_2",
+  "e46daf96_24",
+  "e46daf96_30",
+  "e46daf96_6",
+  "e46daf96_9"
+ ],
+ "test": [
+  "e46daf96_1",
+  "e46daf96_11",
+  "e46daf96_12",
+  "e46daf96_13",
+  "e46daf96_15",
+  "e46daf96_17",
+  "e46daf96_18",
+  "e46daf96_20",
+  "e46daf96_21",
+  "e46daf96_22",
+  "e46daf96_23",
+  "e46daf96_25",
+  "e46daf96_26",
+  "e46daf96_27",
+  "e46daf96_28",
+  "e46daf96_29",
+  "e46daf96_3",
+  "e46daf96_4",
+  "e46daf96_5",
+  "e46daf96_7",
+  "e46daf96_8"
+ ]
+}
